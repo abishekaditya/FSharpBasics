@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>86b58ed9-835f-4ef5-9f4c-ed179234a1c7</ProjectGuid>
+    <ProjectGuid>712db55e-a075-495f-8e02-31061ed78ef4</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FSharpBasics</RootNamespace>
-    <AssemblyName>FSharpBasics</AssemblyName>
+    <RootNamespace>EntryPoint</RootNamespace>
+    <AssemblyName>EntryPoint</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>FSharpBasics</Name>
+    <Name>EntryPoint</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
