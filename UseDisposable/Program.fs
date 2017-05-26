@@ -24,6 +24,6 @@ let writeToFile file (str : string) =
 let run args =
     let x = main |> ignore
     printfn "Done"
-    writeToFile "D" "ABCDEFGH"
+    writeToFile "Dx" "ABCDEFGH"
     Console.ReadLine() |> ignore
     0

@@ -9,6 +9,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EntryPoint", "EntryPoint\En
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UseDisposable", "UseDisposable\UseDisposable.fsproj", "{A9E5B600-150B-4487-993A-66F278D5CF65}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptionalParams", "OptionalParams\OptionalParams.fsproj", "{66559A2D-3550-4147-AE08-1EA07CE118C4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Enumerations", "Enumerations\Enumerations.fsproj", "{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A9E5B600-150B-4487-993A-66F278D5CF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E5B600-150B-4487-993A-66F278D5CF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E5B600-150B-4487-993A-66F278D5CF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66559A2D-3550-4147-AE08-1EA07CE118C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66559A2D-3550-4147-AE08-1EA07CE118C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66559A2D-3550-4147-AE08-1EA07CE118C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66559A2D-3550-4147-AE08-1EA07CE118C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
