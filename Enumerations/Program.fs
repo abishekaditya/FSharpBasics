@@ -10,8 +10,12 @@ type DaysOfWeek =
     | saturday = 32
     | sunday = 64
 
-let toUpper (s : string) = 
-    (s.Substring(0,1).ToUpper() + s.Substring(1).ToLower())
+let rec toUpper (s : Object) = 
+    match (box s) with
+    | :? Enum -> s.ToString() |> toUpper
+    | :? string -> ((string s).Substring(0,1).ToUpper() + (string s).Substring(1).ToLower())
+    | _ -> "Error"
+
 
 let whichday (num : int32) =
    let weekend = DaysOfWeek.saturday ||| DaysOfWeek.sunday
@@ -26,5 +30,6 @@ let whichday (num : int32) =
 let main argv = 
     printf "%s\n" (whichday 4)
     printf "%s\n" (whichday 96)
+    printf "%s\n" ((enum<DaysOfWeek> 32) |> toUpper)
     Console.ReadKey() |> ignore
     0 // return an integer exit code

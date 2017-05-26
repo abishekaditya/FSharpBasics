@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OptionalParams", "OptionalP
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Enumerations", "Enumerations\Enumerations.fsproj", "{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FizzBuzz", "FizzBuzz\FizzBuzz.fsproj", "{97737420-1B77-48FC-8238-75D7D470CBF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D38FAB1E-D18A-481A-A1BF-4DE82C45054D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97737420-1B77-48FC-8238-75D7D470CBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97737420-1B77-48FC-8238-75D7D470CBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97737420-1B77-48FC-8238-75D7D470CBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97737420-1B77-48FC-8238-75D7D470CBF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
