@@ -1,4 +1,4 @@
-﻿namespace FSharpBasics.AssemblyInfo
+﻿namespace Calculator.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("FSharpBasics")>]
+[<assembly: AssemblyTitle("Calculator")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("FSharpBasics")>]
+[<assembly: AssemblyProduct("Calculator")>]
 [<assembly: AssemblyCopyright("Copyright ©  2017")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("86b58ed9-835f-4ef5-9f4c-ed179234a1c7")>]
+[<assembly: Guid("5ccf1a7b-3a32-429f-b194-2f2730c2a759")>]
 
 // Version information for an assembly consists of the following four values:
 // 
