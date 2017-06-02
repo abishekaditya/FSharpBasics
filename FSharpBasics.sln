@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EntryPoint", "EntryPoint\EntryPoint.fsproj", "{712DB55E-A075-495F-8E02-31061ED78EF4}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes and Objects", "Classes and Objects", "{56448A35-299F-4C3B-935D-ADC093A37988}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calculator", "Calculator\Calculator.fsproj", "{5CCF1A7B-3A32-429F-B194-2F2730C2A759}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Events", "Events\Events.fsproj", "{7FB85D94-E105-4308-8D38-C8D64397631A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{5CCF1A7B-3A32-429F-B194-2F2730C2A759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CCF1A7B-3A32-429F-B194-2F2730C2A759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CCF1A7B-3A32-429F-B194-2F2730C2A759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB85D94-E105-4308-8D38-C8D64397631A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB85D94-E105-4308-8D38-C8D64397631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB85D94-E105-4308-8D38-C8D64397631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB85D94-E105-4308-8D38-C8D64397631A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,5 +105,6 @@ Global
 		{0A19183F-D03B-4FBE-8A1A-E01E61105A53} = {EA6763E7-223C-4416-8353-84CA86D969BD}
 		{40F6DD47-DE7A-4229-A348-016182F05B47} = {EA6763E7-223C-4416-8353-84CA86D969BD}
 		{5CCF1A7B-3A32-429F-B194-2F2730C2A759} = {56448A35-299F-4C3B-935D-ADC093A37988}
+		{7FB85D94-E105-4308-8D38-C8D64397631A} = {56448A35-299F-4C3B-935D-ADC093A37988}
 	EndGlobalSection
 EndGlobal
