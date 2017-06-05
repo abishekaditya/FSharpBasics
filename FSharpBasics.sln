@@ -35,6 +35,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Events", "Events\Events.fsproj", "{7FB85D94-E105-4308-8D38-C8D64397631A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Warriors (Inheritance and Interfaces)", "Warriors (Inheritance and Interfaces)\Warriors (Inheritance and Interfaces).fsproj", "{F73726FA-60B0-4468-ABE1-F4B13882B1FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{7FB85D94-E105-4308-8D38-C8D64397631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB85D94-E105-4308-8D38-C8D64397631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB85D94-E105-4308-8D38-C8D64397631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73726FA-60B0-4468-ABE1-F4B13882B1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73726FA-60B0-4468-ABE1-F4B13882B1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73726FA-60B0-4468-ABE1-F4B13882B1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73726FA-60B0-4468-ABE1-F4B13882B1FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,5 +112,6 @@ Global
 		{40F6DD47-DE7A-4229-A348-016182F05B47} = {EA6763E7-223C-4416-8353-84CA86D969BD}
 		{5CCF1A7B-3A32-429F-B194-2F2730C2A759} = {56448A35-299F-4C3B-935D-ADC093A37988}
 		{7FB85D94-E105-4308-8D38-C8D64397631A} = {56448A35-299F-4C3B-935D-ADC093A37988}
+		{F73726FA-60B0-4468-ABE1-F4B13882B1FD} = {56448A35-299F-4C3B-935D-ADC093A37988}
 	EndGlobalSection
 EndGlobal
